@@ -6,6 +6,7 @@
     <img alt="License: mit" src="https://img.shields.io/badge/License-mit-yellow.svg" />
   </a>
 </p>
+
 ### 🏠 [Visit it here](https://app-mini-diary.herokuapp.com/)
 
 
