@@ -1,0 +1,14 @@
+<%- include('../_partial/_header'); -%>
+
+<% if(currentUser != null) { %>
+   <h1>hi <%= currentUser.username %>!</h1>
+<%}%>
+<% if(currentUser == null) { %> 
+
+        <div class="alert alert-info" role="alert">
+          Please login to veiw this page
+        </div>
+
+<% } %>
+
+<%- include ('../_partial/_footer'); -%>

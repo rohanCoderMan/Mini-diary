@@ -1,0 +1,28 @@
+<%- include('../_partial/_header'); -%>
+
+
+<div class="row">
+    <div class="col-md-10">
+        <h1>all Posts</h1>
+    </div>
+</div>
+
+
+<!--List all the posts-->
+<% posts.forEach(function(post) { %>
+    <div class="col-sm-10 col-md-10">
+        <div class="thumbnail">
+            <div class="caption">
+                <h3><%= post.title %></h3>
+                <i><h5><%= post.name %> at <%= post.createdAt %></h5></i>
+                <p><%= post.content %></p>
+            </div>
+        </div>
+    </div>
+
+<% }) %>
+
+
+
+
+<%- include ('../_partial/_footer'); -%>
