@@ -6,7 +6,6 @@
     <img alt="License: mit" src="https://img.shields.io/badge/License-mit-yellow.svg" />
   </a>
 </p>
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 ### 🏠 [Visit it here](https://app-mini-diary.herokuapp.com/)
 
 
